@@ -24,7 +24,7 @@ test('testing class Team to be iterable', () => {
   team.addHeroy(new Daemon('Vamp'));
 
   let count = 0;
-  for (const heroy of team) { // итерируем класс Team
+  for (const heroy of team) { // итерируем класс
     expect(heroy).toEqual(arrOfHeroes[count]);
     count += 1;
   }
